@@ -20,8 +20,8 @@ app.post("/iletisim",(req,res)=>{
     var transfer = nodemailer.createTransport({
         service:"gmail",
         auth:{
-            user:"melihnode@gmail.com",
-            pass:"meliherpek1"
+            user:"", // nodemailer module ü için kendi mailinizin bilgilerini girin
+            pass:""
         }
     });
 
